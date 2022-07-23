@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* .showcase::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  clip-path: polygon(0 0, 65% 0, 40% 100%, 0% 100%);
+  background-color: rgb(173, 162, 162);
+} */
+
+.h-nav li {
+  margin: 0 10px;
+}
+
+@layer utilities {
+
+  .clip-your-box {
+    /* clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%); */
+    /* clip-path: polygon(0 0, 86% 0, 40% 100%, 0% 100%); */
+    clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+
+  }
+
+  .clip-your-box-2 {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+
+  .clip-your-box-3 {
+    /* clip-path: polygon(14% 0, 100% 0%, 100% 100%, 0% 100%); */
+    clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+
+  }
+
+  .clip-your-box-4 {
+    clip-path: polygon(0 0, 100% 0%, 91% 100%, 0% 100%);
+
+  }
+
+  .clip-your-box-none {
+    clip-path: none
+  }
+
+}
