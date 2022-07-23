@@ -5,10 +5,10 @@ import Link from "next/link"
 const ShowCase = () => {
     return (
         <div className='showcase min-h-[500px] relative sm:bg-gray-900 bg-[url("/close-up-suv.png")] bg-contain bg-top sm:bg-right bg-no-repeat grid grid-rows-[85%,15%]'>
-            <div className="content grid sm:grid-cols-2">
+            <div className="content grid md:grid-cols-[60%,40%] sm:grid-cols-2">
                 <div className="sm:bg-slate-200 mb-12 px-5 sm:mb-0 flex flex-col justify-end sm:justify-center sm:clip-your-box">
-                    <h3 className="text-4xl sm:text-5xl">The best place to find </h3>
-                    <h3 className="font-light text-2xl sm:text-3xl">Great transportation services</h3>
+                    <h3 className="text-4xl md:text-4xl sm:text-5xl">The best place to find </h3>
+                    <h3 className="font-light text-2xl md:text-2xl sm:text-3xl">Great transportation services</h3>
                     <button className="bg-gray-700 text-teal-50 w-fit ml-6 mt-4 px-6 py-2 hover:bg-blue-300 clip-your-box-3">RESERVE NOW!</button>
                 </div>
             </div>

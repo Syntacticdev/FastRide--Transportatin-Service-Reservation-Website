@@ -10,18 +10,14 @@ const OrderCard = () => {
                 <Image src="/close-up-suv.png" className='p-3' alt="car-type" layout='fill' priority />
             </div>
             <div className="bg-white relative">
-                <button className='bg-red-300 text-white py-2 absolute -bottom-5 left-1/2 -translate-x-1/2 px-3'>
+                <button className='bg-red-300 text-sm text-white py-2 absolute -bottom-5 left-1/2 -translate-x-1/2 px-3'>
                     RESERVE NOW
                 </button>
                 <div className="p-3">
                     <h3 className="font-semibold">Divi Leod V3</h3>
                     <span className='font-semibold text-xs text-red-400'>Starting $44/day</span>
                 </div>
-                {/* <div class="relative flex py-5 items-center">
-                    <div class="flex-grow border-t border-gray-400"></div>
-                    <span class="flex-shrink mx-4 text-gray-400">Content</span>
-                    <div class="flex-grow border-t border-gray-400"></div>
-                </div> */}
+
                 <Ruler />
                 <div className='p-3 grid items-center h-2/4'>
                     <ul>

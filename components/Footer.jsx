@@ -5,10 +5,10 @@ import { AiFillFacebook, AiOutlineTwitter, AiFillInstagram } from "react-icons/a
 const Footer = () => {
     return (
         <div className="footer">
-            <div className="px-10 pt-10 pb-5 grid gap-3 sm:grid-cols-[20%,20%,20%,40%] bg-white">
+            <div className="px-10 pt-10 pb-5 grid gap-3 sm:grid-cols-[20%,20%,20%,40%] bg-gray-700 text-white">
                 <div className="enquiries">
                     <ul>
-                        <h2 className='font-semibold mb-2 text-2xl'>Enquiries</h2>
+                        <h2 className='font-semibold mb-2 text-2xl text-red-400'>Enquiries</h2>
                         <li><span className=''>Test Drive</span></li>
                         <li><span className=''>Service</span></li>
                         <li><span className=''>Learning</span></li>
@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
                 <div className="offers">
                     <ul>
-                        <h2 className='font-semibold mb-2 text-2xl'>Offers</h2>
+                        <h2 className='font-semibold mb-2 text-2xl text-red-400'>Offers</h2>
                         <li><span className=''>Special Offers</span></li>
                         <li><span className=''>First Time Offer</span></li>
                         <li><span className=''>Vip Reserve</span></li>
@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
                 <div className="about">
                     <ul>
-                        <h2 className='font-semibold mb-2 text-2xl'>Navigations</h2>
+                        <h2 className='font-semibold mb-2 text-2xl text-red-400'>Navigations</h2>
                         <li><Link href='/about'><a>About</a></Link></li>
                         <li><Link href='/contact'><a>Contact</a></Link></li>
                         <li>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
                 <div className="enquiries">
                     <ul>
-                        <h2 className='font-semibold mb-2 text-2xl'>Connect With Us</h2>
+                        <h2 className='font-semibold mb-2 text-2xl text-red-400'>Connect With Us</h2>
                         <li>
                             <div>
                                 <h3>CUSTOMER SERVICE</h3>
@@ -48,8 +48,8 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className="copyright text-center py-2">
-                <span className="font-medium">Copyright 2022, FastRide inc. All Right Reserved.</span>
+            <div className="copyright text-center bg-gray-700 py-2">
+                <span className="font-medium text-white text-sm sm:text-normal">Copyright 2022, FastRide inc. All Right Reserved.</span>
             </div>
         </div>
     )
